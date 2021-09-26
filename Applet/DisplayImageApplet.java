@@ -1,8 +1,8 @@
-    import java.awt.*;  
-    import java.applet.*;  
-      
-      
-    public class DisplayImageApplet extends Applet {  
+import java.applet.*;
+import java.awt.Graphics;
+import java.awt.Image;
+
+public class DisplayImageApplet extends Applet {
       
       Image picture;  
       
