@@ -12,6 +12,7 @@ public class LargestOfThree extends Applet implements ActionListener{
     Button b1;
     
     public void init(){
+        
         setLayout(null);
         tf1=new TextField();
         tf1.setBounds(30,40,200,20);
