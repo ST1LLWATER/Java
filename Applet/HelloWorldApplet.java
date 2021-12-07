@@ -4,7 +4,7 @@ import java.awt.*;
 public class HelloWorldApplet extends Applet {
     public void paint(Graphics g) {
       String str=getParameter("msg");
-      g.drawString(str, 250, 100);
+      g.drawString(str, 200, 100);
     }
 }
 
