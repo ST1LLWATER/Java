@@ -70,15 +70,12 @@ public void mouseDragged(MouseEvent me)
 // System.out.println("Drageed");
 // x1=me.getX();
 // y1=me.getY();
-System.out.println(x1 +" "+ y1);
 x2=me.getX();
 y2=me.getY();
-System.out.println(x2 +" "+ y2);
 Graphics g=getGraphics();
 g.drawLine(x1,y1,x2,y2);
 x1=x2;
 y1=y2;
-System.out.println(x1 +" "+ y1);
 }
 // });
 
