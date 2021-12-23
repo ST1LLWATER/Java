@@ -7,7 +7,7 @@ public class StarLoop extends Applet{
     public void paint(Graphics g){
         g.setFont(new Font("Times New Roman",Font.BOLD,30));
         FontMetrics fm=g.getFontMetrics();
-        for(int i=0;i<8;i++){
+        for(int i=0;i<13;i++){
             for(int j=0;j<8;j++){
                 width+=fm.stringWidth("*   ");
                 if(i%2==0){
