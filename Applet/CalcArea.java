@@ -1,6 +1,7 @@
 import java.applet.*;
 import java.awt.*;
 import java.awt.event.*;
+import java.io.*;
 
 public class CalcArea extends Applet{
 
